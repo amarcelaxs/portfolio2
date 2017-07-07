@@ -13,7 +13,7 @@
  */
 
 ?><!DOCTYPE html>
-
+<?php wp_head(); ?>
 
 <html <?php language_attributes(); ?> class="no-js no-svg">
 <head>

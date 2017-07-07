@@ -9,6 +9,61 @@
  * @since 1.0
  */
 
+
+
+
+if(!is_admin()){
+	add_action('wp_enqueue_scripts', 'dermatologia_load_style',13);
+	//abertura dos arquivos css
+	function dermatologia_load_style(){
+		//bootstrap
+		wp_register_style(
+			'bootstrap',
+			'assets/css/bootstrap.css',
+			array(),
+			null,
+			'all'		
+		);
+			wp_enqueue_style('bootstrap');
+
+			wp_register_style('theme-style',
+				get_stylesheet_uri(),
+				array(),
+				'all'				
+				);
+			wp_enqueue_style('theme_style');
+
+	}
+
+	add_action("wp_enqueue_scripts", 'dermatologia_load_script',14);
+	//abertura dos arquivos js
+	function dermatologia_load_script(){
+		//jquery
+		wp_deregister_script('jquery');
+		wp_register_script('jquery',
+			'jquery',
+			'assets/js/jquery-1.11.2.min.js',
+			array(),
+			null,
+			false
+			);
+		wp_enqueue_script('jquery');
+		//bootstrap
+		wp_register_script(
+			'bs-script',
+			'assets/js/bootstrap.js',
+			array('jquery'),
+			null,
+			True
+		);
+		wp_enqueue_script('bs-script');
+
+	}
+}
+
+
+
+
 /**
  * Twenty Seventeen only works in WordPress 4.7 or later.
  */
