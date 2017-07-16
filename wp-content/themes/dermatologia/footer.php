@@ -39,7 +39,10 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/home.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/jquery-1.11.2.min.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/bootstrap.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/home.js"></script>
+
+<!--script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.js"></script-->
 </body>
 </html>

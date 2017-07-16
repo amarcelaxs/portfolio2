@@ -1,0 +1,205 @@
+* {margin:0; padding: 0;}
+    html, body {height:100%;}
+
+    .navbar ul{
+        float:right;
+    }
+    .navbar {
+        background-color: #362f2f !important;
+        border-color: #333 !important; 
+    }
+   .navbar-nav>li>a:hover {
+        color: #999 !important;
+        background-color: transparent !important; 
+    }
+  
+    /** formata elementos que tem backgrounds parallax **/
+    .bgParallax {
+      font-family: 'Elsie', cursive;
+      color:#FFF;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1920px;
+      position: relative;
+      /*min-height: 100%;*/
+      min-height: 90%;
+      text-shadow:0 0 10px rgba(0,0,0,0.7);
+
+      background-position: 50% 0;
+      background-repeat: repeat;
+      background-attachment: fixed;
+    }
+
+    /* Define backgrounds dos divs */
+    #quemsomos {background-image: url(../images/bg1.jpg);
+        background-size: 100%;}
+    #missao {
+      background-image: url(../images/bg2.jpg);
+      background-size: 100%;
+      -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    }
+
+    #education {
+      background-image: url(../images/bg3.jpg);
+      background-size: 100%;
+      -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    }
+     #experience {
+      background-image: url(../images/bg4.jpg);
+      background-size: 100%;
+      -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    }
+    #skill {
+      background-image: url(../images/bg11.jpg);
+      background-size: 100%;
+      -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    }
+    #contact {
+      background-image: url(../images/bg12.jpg);
+      background-size: 100%;
+      -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      -o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+      box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    }
+    .perfil .onwer{
+        background: url(../images/me.jpg) 0 0 no-repeat;
+        display: block;
+        height: 341px;
+        width: 500px;
+        position: absolute;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+
+    /** Formata o article que vai o texto **/
+    .bgParallax article {
+      width: 70%;
+      text-align: center;
+      margin:0 auto;
+      padding:20% 0 15% 0 ;
+    }
+
+
+  
+    /** formata texto **/
+    article h1 {font-size:40px;}
+    article p {line-height: 30px; font-size:20px; margin-top:15px;}
+    article p a {color:#FFF; text-decoration:none; font-size:30px;}
+
+.perfil img {
+    border-radius: 50%;
+    width: 150px;
+
+}
+#quemsomos h1 {
+    font-size: 50px;
+    text-align: justify;
+    margin-top: -20px;
+}
+
+#quemsomos .laptop{
+    background: url(../images/laptop.png) 0 0 no-repeat;
+    display: block;
+    height: 341px;
+    width: 500px;
+    position: absolute;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#education .diploma{
+    background: url(../images/diploma.png) 0 0 no-repeat;
+    display: block;
+    height: 341px;
+    width: 500px;
+    position: absolute;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#education div ul {
+    padding-bottom: 5px;
+    text-align: left;
+
+}
+#education div ul li{
+     list-style: none;
+    margin: 0;
+    padding: 0
+
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+#experience .experiencia{
+    background: url(../images/experiencia.png) 0 0 no-repeat;
+    display: block;
+    height: 341px;
+    width: 500px;
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    left:40%;
+}
+
+#experience  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+#experience ul h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+#experience ul li {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+#skill .skill{
+    background: url(../images/skill.png) 0 0 no-repeat;
+    display: block;
+    height: 341px;
+    width: 500px;
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    
+}
+#skill ul{
+      list-style: none;
+}
+#skill  ul li {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    text-align: right;
+}
+#contact i{
+
+    font-size: 8em;
+    cursor: pointer;
+
+}

@@ -1,0 +1,171 @@
+@font-face {
+	font-family: Myriad Pro;    
+    font-style: regular;
+	src: url(../fonts/Myriad-Pro-Regular.ttf);
+	}
+body{
+
+  /* For browsers that do not support gradients  
+  background: #fff; 
+  background: -webkit-linear-gradient(left, #618087 , #fff); 
+  background: -o-linear-gradient(right, #618087 , #fff); 
+  background: -moz-linear-gradient(right, #618087 , #fff); 
+  background: linear-gradient(to right, #618087 , #fff); */
+  background: url(../images/bg.jpg) 0 0 no-repeat;
+}
+* {
+margin: 0 !important;
+padding: 0;
+}
+
+.bg-fundo{    
+    position:absolute;
+}
+.circle{
+    margin-top:60px;
+     border: solid 30px;   
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right-style: none;
+    border-left-color: #84ddd5;
+}
+.borda{
+    border: solid 30px;   
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right-style: none;
+    border-left-color: #84ddd5;
+    /*position: absolute;*/
+}
+#menu  ul{
+    padding-top:60px;
+}
+#menu  ul > li {
+    padding-left:10px;
+}
+#menu  ul > li > a{
+    padding-left: 0;
+    text-decoration-style: none;
+    color:#86f0e6;
+    font-size:17px;
+    font-family: 'Myriad Pro';    
+    font-style:regular;
+    list-style:none;
+    text-transform: uppercase;
+    letter-spacing:6px;
+}
+
+#menu  ul > li > a:hover {
+    
+    color:#fff;
+    text-transform: uppercase;
+}
+
+
+#logoana > div > div .circle{
+    padding-top:150px;
+    padding-bottom:150px;
+
+}
+
+.logo{
+    top:-150px;
+    position:relative;
+}
+#conteudo > div > div > .mini-conteudo >  p{
+    padding-left: 0;
+    text-decoration-style: none;
+    color:#fff;
+    font-size:12px;
+    font-family: 'Myriad Pro';    
+    font-style:regular;
+    list-style:none;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    line-height: 20px;
+}
+#conteudo > div > div > .mini-conteudo > span{
+    color:#84ddd5;
+   
+}
+#conteudo>div{
+    padding-top:30px;
+}
+#conteudo >.mini-bg:first-child{
+    border-radius:5px;
+}
+#conteudo .mini-bg{
+    background-color: #84ddd5;
+    padding:0;
+    padding-left:26px;
+    padding-right:12px;
+ 
+}
+
+
+#conteudo > div > div .mini-bg > span.img1{     
+    background: url("../images/clinica.png") 0 0 no-repeat;
+    display: block;
+    height: 224px;
+    width: 224px;
+    position: absolute;
+    top: -71px;
+    
+
+}
+#conteudo > div > div .mini-bg >  .img2{
+     background: url("../images/estetica.png") 0 0 no-repeat;
+    display: block;
+    height: 224px;
+    width: 224px;
+    position: absolute;
+    top: -71px;
+}
+#conteudo > div > div .mini-bg > .img3{
+     background: url("../images/cirurgia.png") 0 0 no-repeat;
+    display: block;
+    height: 224px;
+    width: 224px;
+    position: absolute;
+    top: -71px;
+}
+
+#conteudo  .mini-bg > .servicos{
+      padding-left: 230px;
+    padding-top: 56px;
+    padding-bottom: 70px;
+}
+#conteudo > div > div .mini-bg > .servicos > span{
+    color:#fff;
+    font-size:13,99px;
+    font-family: 'Myriad Pro';    
+    font-style:regular;        
+    text-transform: uppercase;
+    letter-spacing:3px;
+}
+#conteudo > .mini-bg > .servicos > h1.serv{
+    color:#fff;
+    font-size:22px !important;
+    font-family: 'Myriad Pro';    
+    font-style:regular;        
+    text-transform: uppercase;
+    letter-spacing:8px;
+}
+
+#footer  .social{
+    background: url("../images/social.png") 0 0 no-repeat;
+    display: block;
+    height: 34px;
+    width: 179px;
+    padding-top: 60px;
+    padding-bottom: 5px;
+    left: 20px;
+}
+    
+    
+ 
+ 
+
+
+	
+	

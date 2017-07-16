@@ -28,10 +28,21 @@
 <?php wp_head(); ?>
 </head>
 
+
+
 <body>
+
+
+<script type="javascript">
+	$(document).ready(function(){
+
+			alert('funcionado');
+	});
+	
+</script>
 <header>
 	<section id="menu">
-		<div id="navbar-header">	 
+		<!--div id="navbar-header">	 
 			<div class="container-full">	
 				<div class="row">							 
 					<div class="circle col-md-3 col-sm-3 ">			
@@ -46,12 +57,55 @@
 						</ul>  
 					</div>
 					<div class="col-md-5 col-sm-5 logo">		
-						<!--img src="assets/images/logo.png"-->
+			
 					</div>       
 					<div class="circle col-md-4 col-sm-4 ">	
 					</div>                                  
 				</div>
 			</div>		
+		</div-->
+
+
+
+
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	<div class="container-full">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 		</div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div class="container-full">	
+				<div class="row">							 
+					<div class="circle col-md-3 col-sm-3 ">				
+						<ul class=" nav  nav-pills	nav-stacked">
+							<li><a href="#" class="home">Home</a></li>
+							<li><a href="#">Conceito</a></li>
+							<li><a href="#">Perfil</a></li>
+							<li><a href="#">Tratamento</a></li>
+							<li><a href="#">Cursos</a></li>               
+							<li><a href="#">News</a></li>               
+							<li><a href="#">Contato</a></li>               
+						</ul> 
+					</div>
+					<div class="col-md-5 col-sm-5 logo">		
+			
+					</div>       
+					<div class="circle col-md-4 col-sm-4 ">	
+				</div>  
+			</div>
+		</div>
+	</nav>
+  </div>
+	
+
 	</section>	
+
 	</header>
+
+
