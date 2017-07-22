@@ -1,18 +1,54 @@
-* {margin:0; padding: 0;}
-    html, body {height:100%;}
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+@import url('https://fonts.googleapis.com/css?family=Spectral');
+
+
+* {margin:0; padding: 0;}
+    html, body {height:100%;
+     
+    
+    }
+    .menu{
+      padding-left: 30px;
+      padding-right: 200px;
+
+    }
     .navbar ul{
         float:right;
     }
     .navbar {
-        background-color: #362f2f !important;
-        border-color: #333 !important; 
+        background-color:transparent !important;
+        border-color: transparent !important; 
     }
+    .navbar-header .navbar-brand {
+       font-weight: bold;
+    font-family: Lobster;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 3px;
+
+    }
+    .navbar-header .navbar-brand:hover {
+      color: #eee;
+    }
+    .navbar-default .navbar-nav > li > a{
+     font-family: 'Spectral', serif;
+      font-size: 12px;
+      color: #fff;
+      letter-spacing: 2px;
+    }
+    
+
    .navbar-nav>li>a:hover {
-        color: #999 !important;
+        color: #eee !important;
         background-color: transparent !important; 
     }
-  
+    .navbar-nav>li>a:active {
+      color: #eee !important;
+      background-color: transparent !important; 
+    }
     /** formata elementos que tem backgrounds parallax **/
     .bgParallax {
       font-family: 'Elsie', cursive;
@@ -23,7 +59,7 @@
       position: relative;
       /*min-height: 100%;*/
       min-height: 90%;
-      text-shadow:0 0 10px rgba(0,0,0,0.7);
+     
 
       background-position: 50% 0;
       background-repeat: repeat;
@@ -31,16 +67,28 @@
     }
 
     /* Define backgrounds dos divs */
-    #quemsomos {background-image: url(../images/bg1.jpg);
-        background-size: 100%;}
+    #quemsomos {
+      /*background-image: url(../images/deskfront.jpg);
+        background-size: 100%;       
+      -o-box-shadow: -0px 0 103px 34px rgba(0,0,0,0.7) inset;
+      -ms-box-shadow: -0px 0 103px 34px rgba(0,0,0,0.7) inset;
+      -moz-box-shadow: -0px 0 103px 34px rgba(0,0,0,0.7) inset;      
+      -webkit-box-shadow: -0px 0 103px 34px rgba(0,0,0,0.7) inset;
+      box-shadow: -0px 0 103px 34px rgba(0,0,0,0.7) inset;*/
+          min-height: 100vh;
+        background: url(../images/pattern.png) bottom center no-repeat #ca67c8;
+        background-size: cover;
+    }
+
     #missao {
       background-image: url(../images/bg2.jpg);
       background-size: 100%;
-      -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
-      -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
-      -ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
-      -o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
-      box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+       background-position-y:100%;
+      -webkit-box-shadow:-0px 0 50px 15px rgba(0,0,0,0.7) inset;
+      -moz-box-shadow:-0px 0 50px 15px rgba(0,0,0,0.7) inset;
+      -ms-box-shadow:-0px 0 50px 15px rgba(0,0,0,0.7) inset
+      -o-box-shadow:-0px 0 50px 15px rgba(0,0,0,0.7) inset;3333333
+      box-shadow:-0px 0 50px 15px rgba(0,0,0,0.7) inset;
     }
 
     #education {
@@ -53,7 +101,7 @@
       box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
     }
      #experience {
-      background-image: url(../images/bg4.jpg);
+      background-image: url(../images/wood.jpg);
       background-size: 100%;
       -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
       -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
@@ -70,15 +118,7 @@
       -o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
       box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
     }
-    #contact {
-      background-image: url(../images/bg12.jpg);
-      background-size: 100%;
-      -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
-      -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
-      -ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
-      -o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
-      box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
-    }
+ 
     .perfil .onwer{
         background: url(../images/me.jpg) 0 0 no-repeat;
         display: block;
@@ -87,6 +127,11 @@
         position: absolute;
         margin-top: 25px;
         margin-bottom: 25px;
+    }
+       #contact {
+         min-height: 100vh;
+        background: url(../images/pattern.png) bottom center no-repeat #a79898;
+        background-size: cover;
     }
     
 
@@ -101,7 +146,7 @@
 
   
     /** formata texto **/
-    article h1 {font-size:40px;}
+    article h1 {font-size:56px; font-family: 'Sacramento', cursive;color:#333;font-weight: bold;letter-spacing: 5px;}
     article p {line-height: 30px; font-size:20px; margin-top:15px;}
     article p a {color:#FFF; text-decoration:none; font-size:30px;}
 
@@ -110,10 +155,22 @@
     width: 150px;
 
 }
+
+.perfil h2{
+  font-family: 'Spectral', serif;
+color: #333;
+font-weight: bold;
+letter-spacing: 1px;
+
+}
 #quemsomos h1 {
-    font-size: 50px;
-    text-align: justify;
+    font-size: 20px;
+    text-align: right;
     margin-top: -20px;
+    font-family: 'Spectral', serif;
+    color: #333;
+}
+
 }
 
 #quemsomos .laptop{
@@ -149,6 +206,46 @@
     font-weight: normal;
     margin-bottom: 2px;
 }
+
+#skill .skill{
+    background: url(../images/skill.png) 0 0 no-repeat;
+    display: block;
+    height: 341px;
+    width: 500px;
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    
+}
+#skill ul{
+      list-style: none;
+}
+#skill  ul li {
+    float: left;
+    display: block;
+    list-style: none;
+    font-weight: 400;
+    padding: 5px 15px;
+    margin: 0 15px 15px 0;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #999;
+    color: #999;
+    background-color:#eee;
+    cursor:pointer;
+    font-family: 'Spectral', serif;
+    }
+#skill  ul li:hover {    
+    background-color:#999;
+    color:#fff;
+
+    }
+#contact i{
+    font-size: 8em;
+    cursor: pointer;
+
+}
+
 #experience .experiencia{
     background: url(../images/experiencia.png) 0 0 no-repeat;
     display: block;
@@ -178,28 +275,116 @@
     font-weight: normal;
     margin-bottom: 2px;
 }
-#skill .skill{
-    background: url(../images/skill.png) 0 0 no-repeat;
-    display: block;
-    height: 341px;
-    width: 500px;
+
+#experience .cm{
+  background: url(../images/cmcorp.jpg  ) 0 0 no-repeat;
+}
+#experience .ubc{
+  background: url(../images/ubc.jpg  ) 0 0 no-repeat;
+}
+#experience .port{
+  background: url(../images/port.jpg  ) 0 0 no-repeat;
+}
+#experience span.img{
+   display: block;
+    height: 174px;
+    width: 250px;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 25px;
     margin-bottom: 25px;
-    
-}
-#skill ul{
-      list-style: none;
-}
-#skill  ul li {
-    font-size: 18px;
-    font-weight: normal;
-    margin-bottom: 5px;
-    text-align: right;
-}
-#contact i{
+    background-size: 100%;
+    cursor:pointer;
+    webkit-transition: all .2s ease-in-out 0s;
+  transition: all .2s ease-in-out 0s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
 
-    font-size: 8em;
-    cursor: pointer;
+}
+#experience .img:hover{
 
+    -webkit-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+footer #contact form{float:right;}
+footer #contact form label{
+  font-size:18px;
+  font-family: 'Spectral', serif;
+  float:left;
+  padding: 0 10px 0 0;
+}
+
+footer #contact form input{
+  width:300px;
+  }
+  
+  footer #contact form a{
+    font-size:18px;
+  }
+
+  footer #contact form .action{
+    margin: -11px 69px 0 0;
+  }
+footer #contact form a{
+    color: #fff;
+    text-decoration: underline;
+    font-size: 14px;
+  }
+
+
+  footer #contact  .linkedin {
+    background: url(../images/linkedin.png) 0 0 no-repeat;
+    display: block;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-size: 100%;
+    cursor:pointer;
+  
+  }
+
+  footer #contact  .skype {
+    background: url(../images/logo.png) 0 0 no-repeat;
+    display: block;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-size: 100%;
+    cursor:pointer;
+
+  }
+
+  footer #contact  .cat {
+    background: url(../images/cat.png) 0 0 no-repeat;
+    display: block;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-size: 100%;
+    cursor:pointer;
+ 
+  }
+   footer #contact  .pdf {
+    background: url(../images/pdf.png) 0 0 no-repeat;
+    display: block;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-size: 100%;
+    cursor:pointer;
+  }
+
+footer .rodape{
+  background-color:#333;
+  padding-top:50px;
 }

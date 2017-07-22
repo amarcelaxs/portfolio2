@@ -21,10 +21,11 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
  <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
 
-<link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/style.css" rel="stylesheet">
+<link href="<?php echo esc_url(get_template_directory_uri() ); ?>/assets/css/style.css" rel="stylesheet">
+<!--link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"--> 
 
 
-<title>Dermatologia</title>
+<title>anamarcela.info</title>
 <?php wp_head(); ?>
 </head>
 
@@ -35,7 +36,7 @@
   <header>
    <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+      <div class="container-fluid menu">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Ana Marcela</span>
@@ -48,11 +49,10 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="home"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#edcucation">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#about">Sobre</a></li>        
             <li><a href="#skill">Skill</a></li>
-            <li><a href="#contact">Contact</a></li>           
+            <li><a href="#experience">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>           
           </ul>
          
         </div><!--/.nav-collapse -->

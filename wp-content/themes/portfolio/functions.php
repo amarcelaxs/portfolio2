@@ -13,9 +13,9 @@
 
 
 if(!is_admin()){
-	add_action('wp_enqueue_scripts', 'dermatologia_load_style',13);
+	add_action('wp_enqueue_scripts', 'portfolio_load_style',13);
 	//abertura dos arquivos css
-	function dermatologia_load_style(){
+	function portfolio_load_style(){
 		//bootstrap
 		wp_register_style(
 			'bootstrap',
@@ -35,9 +35,9 @@ if(!is_admin()){
 
 	}
 
-	add_action("wp_enqueue_scripts", 'dermatologia_load_script',14);
+	add_action("wp_enqueue_scripts", 'portfolio_load_script',14);
 	//abertura dos arquivos js
-	function dermatologia_load_script(){
+	function portfolio_load_script(){
 		//jquery
 		wp_deregister_script('jquery');
 		wp_register_script('jquery',
