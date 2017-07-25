@@ -308,18 +308,65 @@ letter-spacing: 1px;
     transform: scale(1.05);
 }
 
-footer #contact form{float:right;}
+
 footer #contact form label{
   font-size:18px;
   font-family: 'Spectral', serif;
-  float:left;
   padding: 0 10px 0 0;
+
 }
 
 footer #contact form input{
-  width:300px;
+  width:600px;
+  color: #000;
+  border-radius:5px;
+
+display: block;
+    /*width: 100%;*/
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+
+
+
+footer #contact form textarea{ 
+  color: #000;
+  border-radius:5px;
+  display: block;
+    width: 600px;
+    height: 100px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   }
   
+  footer #contact form .wpcf7-submit{ 
+    width:20%;
+  }
   footer #contact form a{
     font-size:18px;
   }
@@ -332,7 +379,6 @@ footer #contact form a{
     text-decoration: underline;
     font-size: 14px;
   }
-
 
   footer #contact  .linkedin {
     background: url(../images/linkedin.png) 0 0 no-repeat;
@@ -384,7 +430,13 @@ footer #contact form a{
     cursor:pointer;
   }
 
+
+
+
 footer .rodape{
   background-color:#333;
   padding-top:50px;
 }
+
+
+
