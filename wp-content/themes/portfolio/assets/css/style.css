@@ -33,19 +33,27 @@
     .navbar-header .navbar-brand:hover {
       color: #eee;
     }
-    .navbar-default .navbar-nav > li > a{
+
+    #navbar #menu-menu-topo > li{
+      list-style: none;
+      display: inline;
+      padding:10px;
+    }
+    #navbar #menu-menu-topo > li > a{
      font-family: 'Spectral', serif;
       font-size: 12px;
       color: #fff;
       letter-spacing: 2px;
+      text-decoration: none;
+      
     }
     
 
-   .navbar-nav>li>a:hover {
+   #navbar #menu-menu-topo > li > a:hover {
         color: #eee !important;
         background-color: transparent !important; 
     }
-    .navbar-nav>li>a:active {
+    #navbar #menu-menu-topo > li > a:active {
       color: #eee !important;
       background-color: transparent !important; 
     }
@@ -87,7 +95,7 @@
       -webkit-box-shadow:-0px 0 50px 15px rgba(0,0,0,0.7) inset;
       -moz-box-shadow:-0px 0 50px 15px rgba(0,0,0,0.7) inset;
       -ms-box-shadow:-0px 0 50px 15px rgba(0,0,0,0.7) inset
-      -o-box-shadow:-0px 0 50px 15px rgba(0,0,0,0.7) inset;3333333
+      -o-box-shadow:-0px 0 50px 15px rgba(0,0,0,0.7) inset;
       box-shadow:-0px 0 50px 15px rgba(0,0,0,0.7) inset;
     }
 

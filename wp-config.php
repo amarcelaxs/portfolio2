@@ -22,6 +22,7 @@
 // com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
 define('DB_NAME', 'tema');
+//define('DB_NAME', 'wp_cmcorp');
 
 /** Usuário do banco de dados MySQL */
 define('DB_USER', 'root');

@@ -1,0 +1,163 @@
+# Translation of 3.3.x in Portuguese (Brazil)
+
+# This file is distributed under the same license as the 3.3.x package.
+
+msgid ""
+
+msgstr ""
+
+"PO-Revision-Date: 2012-05-02 17:55-0300\n"
+
+"MIME-Version: 1.0\n""Content-Type: text/plain; charset=UTF-8\n"
+
+"Content-Transfer-Encoding: 8bit\n"
+
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+"X-Generator: GlotPress/0.1\n"
+
+"Project-Id-Version: 3.3.x\n"
+
+"POT-Creation-Date: \n"
+
+"Last-Translator: Galv�o <galvao@mktvirtual.com.br>\n"
+
+"Language-Team: \n"
+
+"X-Poedit-Language: Portuguese\n"
+
+"X-Poedit-Country: BRAZIL\n"
+
+#: menu.php
+
+msgid "Mudar Idioma"
+
+msgstr "Change Language"
+
+
+
+msgid "English"
+
+msgstr "Portugu�s"
+
+
+
+msgid "Iniciar Chat"
+
+msgstr "Start Chat"
+
+
+
+msgid "A Empresa"
+
+msgstr "The Company"
+
+
+
+msgid "Solu��es"
+
+msgstr "Solutions"
+
+
+
+msgid "Not�cias"
+
+msgstr "News"
+
+
+
+msgid "Contato"
+
+msgstr "Contact"
+
+
+
+msgid "JUR�DICO"
+
+msgstr "Juridical"
+
+
+
+msgid "Escrit�rio de Advoc�cia"
+
+msgstr "Office of Advocacy"
+
+
+
+
+
+msgid "Previd�ncia Privada"
+
+msgstr "Private security"
+
+
+
+msgid "Hot�is e Restaurantes"
+
+msgstr "Hotels and Restaurants"
+
+
+
+msgid "Ind�strias"
+
+msgstr "Industries"
+
+
+
+msgid "Com�rcio"
+
+msgstr "Trade"
+
+
+
+msgid "Servi�os"
+
+msgstr "Services"
+
+
+
+msgid "Apresenta��o"
+
+msgstr "Presentation"
+
+
+
+msgid "Video"
+
+msgstr "Video"
+
+
+
+msgid "Sistema"
+
+msgstr "System"
+
+
+
+msgid "A CMCorp oferece solu��es integradas com todo o texto resumido e vendedor que deve convencer o usu�rio a clicar aqui."
+
+msgstr "The CMCorp offers solutions inserted with  all the text resumed and salesman who should to convincethe users clicked here."
+
+msgid "Mensagem:"
+
+msgstr "Message:"
+
+msgid "Name:"
+
+msgstr "Nome:"
+
+msgid "Mensagem"
+
+msgstr "Message"
+
+
+msgid "Ultima mensagem: 0 minutos atras"
+
+msgstr "Latest Message: 0 minutes ago"
+
+
+msgid "Enviar"
+
+msgstr "Say it"
+
+

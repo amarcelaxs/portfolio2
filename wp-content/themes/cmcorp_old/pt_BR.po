@@ -1,0 +1,72 @@
+# Translation of 3.3.x in Portuguese (Brazil)
+# This file is distributed under the same license as the 3.3.x package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2012-05-02 17:55-0300\n"
+"MIME-Version: 1.0\n""Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: 3.3.x\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Galvão <galvao@mktvirtual.com.br>\n"
+"Language-Team: \n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+#: menu.php
+msgid "Mudar Idioma"
+msgstr "Mudar Idioma"
+
+msgid "English"
+msgstr "English"
+
+msgid "Iniciar Chat"
+msgstr "Iniciar Chat"
+
+msgid "Iniciar Chat"
+msgstr "Iniciar Chat"
+
+msgid "A Empresa"
+msgstr "A Empresa"
+
+msgid "Soluções"
+msgstr "Soluções"
+
+msgid "Notícias"
+msgstr "Notícias"
+
+msgid "Contato"
+msgstr "Contato"
+
+msgid "JURÍDICO"
+msgstr "JURÍDICO"
+
+msgid "Escritório de Advocácia"
+msgstr "Escritório de Advocácia"
+
+msgid "Previdência Privada"
+msgstr "Previdência Privada"
+
+msgid "Hotéis e Restaurantes"
+msgstr "Hotéis e Restaurantes"
+
+msgid "Indústrias"
+msgstr "Indústrias"
+
+msgid "Comércio"
+msgstr "Comércio"
+
+msgid "Serviços"
+msgstr "Serviços"
+
+msgid "Apresentação"
+msgstr "Apresentação"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Sistema"
+msgstr "Sistema"
+
+msgid "A CMCorp oferece soluções integradas com todo o texto resumido e vendedor que deve convencer o usuário a clicar aqui."
+msgstr "A CMCorp oferece soluções integradas com todo o texto resumido e vendedor que deve convencer o usuário a clicar aqui."

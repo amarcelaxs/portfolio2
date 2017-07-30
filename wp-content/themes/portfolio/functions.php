@@ -9,6 +9,17 @@
  * @since 1.0
  */
 
+
+
+function carrega_scripts(){
+	wp_enqueue_style('template', get_template_directory_uri() . '/css/style.css', array(),'1.0',
+	'all');
+
+	wp_enqueue_script('template', get_template_directory_uri() . '/js/home.js', array(),null,
+	true);
+}
+
+add_action('wp_enqueue_scripts', 'carrega_scripts');
   
 
 
@@ -62,6 +73,14 @@ if(!is_admin()){
 	}
 }
 
+
+
+register_nav_menus(
+	array(
+		'meu _menu_principal' =>'Menu Principal',
+		
+	)
+);
 
 
 
@@ -620,3 +639,6 @@ require get_parent_theme_file_path( '/inc/customizer.php' );
  * SVG icons functions and filters.
  */
 require get_parent_theme_file_path( '/inc/icon-functions.php' );
+
+add_filter('show_admin_bar','__return_false');
+?>

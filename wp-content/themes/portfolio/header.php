@@ -38,22 +38,23 @@
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid menu">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <!--button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Ana Marcela</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
+          </button!-->
           <a class="navbar-brand" href="#">Ana Marcela</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+          <?php wp_nav_menu( array('theme_location' => '' ) );?>
+          <!---ul class="nav navbar-nav">
             <li class="home"><a href="#">Home</a></li>
             <li><a href="#about">Sobre</a></li>        
             <li><a href="#skill">Skill</a></li>
             <li><a href="#experience">Projetos</a></li>
             <li><a href="#contact">Contato</a></li>           
-          </ul>
+          </ul-->
          
         </div><!--/.nav-collapse -->
       </div>

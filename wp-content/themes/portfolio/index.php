@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-
+<main>
 
 <section id="missao" class="bgParallax" data-speed="5">   
       <div class="container" >    
@@ -21,7 +21,18 @@ get_header();
           <div class="col-md-6 col-lg-6 col-xs-6">        
           </div>    
           <div class="col-md-6 col-lg-6 col-xs-6">
-              <h1>Sou Ana Marcela uma Desenvolvedora Web,tenho 28 anos e trabalho com desenvolvimento desde 2012, sou formada em Analise e Desenvolvimento de Sistemas e atualmente desenvolvo sites utilizando a plataforma Wordpress.</h1>          
+              <!--h1>Sou Ana Marcela uma Desenvolvedora Web,tenho 28 anos e trabalho com desenvolvimento desde 2012, sou formada em Analise e Desenvolvimento de Sistemas e atualmente desenvolvo sites utilizando a plataforma Wordpress.</h1-->          
+              <?php
+                    //se houver algum post 
+                    if(have_posts()):
+                        //enquanto hpuver  algum post,  chame o post de determina maneira
+                          while(have_posts()) : the_post();
+                    ?> <h1><?php the_title();?> </h1>  <h1><?php the_content();?> </h1> 
+                    <?php endwhile;
+                    else:?> <p>nada </p>
+                    <?php endif; ?>
+                  
+                    
           </div>     
           <!--div class="col-lg-6 col-sm-6 col-xs-12">
               <span class="laptop" class="img-responsive"></span>
@@ -79,7 +90,7 @@ get_header();
       </div>      
     </section>
 
-
+</main>
 
     </div> <!-- /container -->
 <?php get_footer();?>
